@@ -1,5 +1,6 @@
 # !/bin/bash
 # データベースのパスワード、転送先ユーザー名、転送先IPについては適宜変更してお使い下さい
+# bitnami redmineでのインストール前提です
 
 # database backup
 /opt/redmine-3.4.3-1/mysql/bin/mysqldump -u bitnami -pデータベースのパスワード bitnami_redmine > /home/redmine/redmine_backup.sql

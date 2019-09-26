@@ -6,7 +6,7 @@
 4. 転送後、利用ファイルを削除
 
 ## 注意事項
-
+- bitnami redmineでインストール前提です
 - スクリプト実行時の注意点として転送先には公開鍵方式で転送元＞転送先へ接続出来てる事が条件です。
 - database backup時のユーザー名/パスワードがわからない人はdatabase.yml(/opt/redmine-3.4.3-1/apps/redmine/htdocs/config以下に存在するはず)を参考にして下さい。
 - Redmineのインストール時のパスが違う場合は適宜変更して下さい。
